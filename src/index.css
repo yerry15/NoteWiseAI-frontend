@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Style the greeting button */
+.greeting {
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Change background color on hover */
+.greeting:hover {
+  background-color: #45a049;
+}
+
+/* Change background color on active (clicked) state */
+.greeting:active {
+  background-color: #3e8e41;
+}
